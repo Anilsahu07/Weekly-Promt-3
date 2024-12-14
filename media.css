@@ -1,0 +1,152 @@
+@media (max-width:550px) {
+    .nav-mid{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    nav >h2{
+        font-size: 6vw;
+    }
+
+    .nav-right button{
+        padding: 8px 15px;
+    }
+
+    .page1{
+        height: fit-content;
+        margin-top: 40px;
+       
+    }
+
+    .inputs h3{
+        font-size: 4vw;
+    }
+
+    .blue{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        padding: 50px 10px;
+        gap: 20px;
+    }
+
+    .left{
+        width: 100%;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .left >p::after{
+        content: "";
+        position: absolute;
+        background-color: rgb(246, 211, 8);
+        width: 39%;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .left>h1{
+        font-size: 6vw;
+        line-height: 7vw;
+        font-weight: 700;
+    }
+
+    .left>p{
+        font-size: 18px;
+    }
+
+    .image{
+        align-items: center;
+        padding: 5px 20px;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    .left .image{
+        flex-direction: column;
+    }
+
+    .right{
+        margin-top: 40px;
+    }
+
+    .page2{
+        padding: 10px 20px;
+
+    }
+    
+    .body1{
+        flex-direction: column;
+        border-bottom: 1px solid black;
+    }
+
+    .body1 .hand img{
+        width: 90%;
+    }
+    .body1 .mobile img{
+        width: 90%;
+    }
+    .body1 .bed img{
+        width: 90%;
+    }
+
+    .page3 .fund-list{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .page2-head h1{
+        font-size: 5vw;
+        font-weight: 700;
+        text-align: center;
+        line-height: 5.5vw;
+    }
+
+    .page2-head p{
+        width: 100%;
+    }
+
+    .page2-head h1::after{
+        content: "";
+        position: absolute;
+        background-color: rgb(221, 255, 0);
+        bottom: 0;
+        left: 0;
+        width: 21%;
+        height: 3px;
+        display: none;
+    }
+
+    .body1 .para{
+        width: 100%;
+    }
+
+    .bodies{
+        text-align: center;
+    }
+
+    .body1 .para h1{
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .page3{
+        margin-top: 80px;
+        gap: 30px;
+        padding: 10px 15px;
+    }
+
+    .page3-head h1{
+        font-size: 5vw;
+    }
+
+}
